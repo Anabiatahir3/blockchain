@@ -1,4 +1,6 @@
 pragma solidity ^0.5.1;
+
+
 contract cryptocommittee{
     address payable owner;
     mapping (address => uint) public balances;
